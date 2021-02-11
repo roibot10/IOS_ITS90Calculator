@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C441F07225C2D87A008E1ADE /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C441F07125C2D87A008E1ADE /* Styles.swift */; };
+		C441F07325C2D87A008E1ADE /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C441F07125C2D87A008E1ADE /* Styles.swift */; };
+		C441F07925C2D8A0008E1ADE /* ITS90Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C441F07825C2D8A0008E1ADE /* ITS90Contants.swift */; };
+		C441F07A25C2D8A0008E1ADE /* ITS90Contants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C441F07825C2D8A0008E1ADE /* ITS90Contants.swift */; };
 		C4E8EC0C25C2D225002E3367 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8EC0B25C2D225002E3367 /* Tests_iOS.swift */; };
 		C4E8EC1725C2D225002E3367 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8EC1625C2D225002E3367 /* Tests_macOS.swift */; };
-		C4E8EC1925C2D225002E3367 /* ITS90MultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8EBEF25C2D224002E3367 /* ITS90MultiPlatformApp.swift */; };
-		C4E8EC1A25C2D225002E3367 /* ITS90MultiPlatformApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8EBEF25C2D224002E3367 /* ITS90MultiPlatformApp.swift */; };
-		C4E8EC1B25C2D225002E3367 /* ITS90MultiPlatformDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8EBF025C2D224002E3367 /* ITS90MultiPlatformDocument.swift */; };
-		C4E8EC1C25C2D225002E3367 /* ITS90MultiPlatformDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8EBF025C2D224002E3367 /* ITS90MultiPlatformDocument.swift */; };
+		C4E8EC1925C2D225002E3367 /* ITS90.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8EBEF25C2D224002E3367 /* ITS90.swift */; };
+		C4E8EC1A25C2D225002E3367 /* ITS90.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8EBEF25C2D224002E3367 /* ITS90.swift */; };
 		C4E8EC1D25C2D225002E3367 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8EBF125C2D224002E3367 /* ContentView.swift */; };
 		C4E8EC1E25C2D225002E3367 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E8EBF125C2D224002E3367 /* ContentView.swift */; };
 		C4E8EC1F25C2D225002E3367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E8EBF225C2D225002E3367 /* Assets.xcassets */; };
@@ -37,11 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C4E8EBEF25C2D224002E3367 /* ITS90MultiPlatformApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITS90MultiPlatformApp.swift; sourceTree = "<group>"; };
-		C4E8EBF025C2D224002E3367 /* ITS90MultiPlatformDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITS90MultiPlatformDocument.swift; sourceTree = "<group>"; };
+		C441F07125C2D87A008E1ADE /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		C441F07825C2D8A0008E1ADE /* ITS90Contants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITS90Contants.swift; sourceTree = "<group>"; };
+		C4E8EBEF25C2D224002E3367 /* ITS90.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITS90.swift; sourceTree = "<group>"; };
 		C4E8EBF125C2D224002E3367 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C4E8EBF225C2D225002E3367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C4E8EBF725C2D225002E3367 /* ITS90MultiPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITS90MultiPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4E8EBF725C2D225002E3367 /* ITS90 Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ITS90 Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E8EBFA25C2D225002E3367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4E8EBFF25C2D225002E3367 /* ITS90MultiPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ITS90MultiPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E8EC0125C2D225002E3367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +55,7 @@
 		C4E8EC1225C2D225002E3367 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4E8EC1625C2D225002E3367 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		C4E8EC1825C2D225002E3367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E8EC3325C2D25E002E3367 /* ITS90MultiPlatform.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ITS90MultiPlatform.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,7 @@
 		C4E8EBE925C2D223002E3367 = {
 			isa = PBXGroup;
 			children = (
+				C4E8EC3325C2D25E002E3367 /* ITS90MultiPlatform.entitlements */,
 				C4E8EBEE25C2D224002E3367 /* Shared */,
 				C4E8EBF925C2D225002E3367 /* iOS */,
 				C4E8EC0025C2D225002E3367 /* macOS */,
@@ -101,10 +106,11 @@
 		C4E8EBEE25C2D224002E3367 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				C4E8EBEF25C2D224002E3367 /* ITS90MultiPlatformApp.swift */,
-				C4E8EBF025C2D224002E3367 /* ITS90MultiPlatformDocument.swift */,
+				C4E8EBEF25C2D224002E3367 /* ITS90.swift */,
 				C4E8EBF125C2D224002E3367 /* ContentView.swift */,
 				C4E8EBF225C2D225002E3367 /* Assets.xcassets */,
+				C441F07125C2D87A008E1ADE /* Styles.swift */,
+				C441F07825C2D8A0008E1ADE /* ITS90Contants.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -112,7 +118,7 @@
 		C4E8EBF825C2D225002E3367 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C4E8EBF725C2D225002E3367 /* ITS90MultiPlatform.app */,
+				C4E8EBF725C2D225002E3367 /* ITS90 Calculator.app */,
 				C4E8EBFF25C2D225002E3367 /* ITS90MultiPlatform.app */,
 				C4E8EC0725C2D225002E3367 /* Tests iOS.xctest */,
 				C4E8EC1225C2D225002E3367 /* Tests macOS.xctest */,
@@ -172,7 +178,7 @@
 			);
 			name = "ITS90MultiPlatform (iOS)";
 			productName = "ITS90MultiPlatform (iOS)";
-			productReference = C4E8EBF725C2D225002E3367 /* ITS90MultiPlatform.app */;
+			productReference = C4E8EBF725C2D225002E3367 /* ITS90 Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C4E8EBFE25C2D225002E3367 /* ITS90MultiPlatform (macOS) */ = {
@@ -312,9 +318,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E8EC1B25C2D225002E3367 /* ITS90MultiPlatformDocument.swift in Sources */,
-				C4E8EC1925C2D225002E3367 /* ITS90MultiPlatformApp.swift in Sources */,
+				C441F07925C2D8A0008E1ADE /* ITS90Contants.swift in Sources */,
+				C4E8EC1925C2D225002E3367 /* ITS90.swift in Sources */,
 				C4E8EC1D25C2D225002E3367 /* ContentView.swift in Sources */,
+				C441F07225C2D87A008E1ADE /* Styles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,9 +329,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4E8EC1C25C2D225002E3367 /* ITS90MultiPlatformDocument.swift in Sources */,
-				C4E8EC1A25C2D225002E3367 /* ITS90MultiPlatformApp.swift in Sources */,
+				C441F07A25C2D8A0008E1ADE /* ITS90Contants.swift in Sources */,
+				C4E8EC1A25C2D225002E3367 /* ITS90.swift in Sources */,
 				C4E8EC1E25C2D225002E3367 /* ContentView.swift in Sources */,
+				C441F07325C2D87A008E1ADE /* Styles.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,7 +484,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = ITS90MultiPlatform.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = UXZ243JA6N;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -484,9 +496,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.harwell.ITS90MultiPlatform;
-				PRODUCT_NAME = ITS90MultiPlatform;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harwell.ITSNinetyCalculator;
+				PRODUCT_NAME = "ITS90 Calculator";
+				PROVISIONING_PROFILE_SPECIFIER = "ITS-90 Calculator";
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -497,7 +511,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = ITS90MultiPlatform.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 3;
+				DEVELOPMENT_TEAM = UXZ243JA6N;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = iOS/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -505,9 +523,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.harwell.ITS90MultiPlatform;
-				PRODUCT_NAME = ITS90MultiPlatform;
+				PRODUCT_BUNDLE_IDENTIFIER = com.harwell.ITSNinetyCalculator;
+				PRODUCT_NAME = "ITS90 Calculator";
+				PROVISIONING_PROFILE_SPECIFIER = "ITS-90 Calculator";
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -522,6 +542,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5547AS9F8Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -544,6 +565,7 @@
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 5547AS9F8Y;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = macOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

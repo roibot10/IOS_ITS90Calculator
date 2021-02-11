@@ -8,10 +8,11 @@
 import SwiftUI
 
 @main
-struct ITS90MultiPlatformApp: App {
+struct ITS90: App {
     var body: some Scene {
-        DocumentGroup(newDocument: ITS90MultiPlatformDocument()) { file in
-            ContentView(document: file.$document)
+        WindowGroup {
+            ContentView(model: Model())
+            
         }
     }
 }
