@@ -10,18 +10,21 @@ import SwiftUI
 // Styles
 extension Color {
     static var primaryColor: Color {
-        Color(UIColor { $0.userInterfaceStyle == .dark ? UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1.0) : UIColor(red: 200/255, green: 200/255, blue: 200/255, alpha: 1.0) })
+        Color(UIColor { $0.userInterfaceStyle == .dark ? UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1.0)
+                : UIColor(red: 200/255, green: 200/255, blue: 200/255, alpha: 1.0) })
     }
     static var secondaryColor: Color {
-        Color(UIColor { $0.userInterfaceStyle == .dark ? UIColor(red: 207/255, green: 203/255, blue: 210/255, alpha: 1.0) : UIColor(red: 34/255, green: 33/255, blue: 60/255, alpha: 1.0) })
+        Color(UIColor { $0.userInterfaceStyle == .dark ? UIColor(red: 207/255, green: 203/255, blue: 210/255, alpha: 1.0)
+                : UIColor(red: 34/255, green: 33/255, blue: 60/255, alpha: 1.0) })
     }//227,223,230
     static var backgroundColor: Color {
-        Color(UIColor { $0.userInterfaceStyle == .dark ? UIColor(red: 29/255, green: 28/255, blue: 53/255, alpha: 1.0) :
-                UIColor(red: 233/255, green: 233/255, blue: 243/255, alpha: 1.0) })
+        Color(UIColor { $0.userInterfaceStyle == .dark ? UIColor(red: 29/255, green: 28/255, blue: 53/255, alpha: 1.0)
+                : UIColor(red: 233/255, green: 233/255, blue: 243/255, alpha: 1.0) })
         
     }
     static var secondaryBackgroundColor: Color {
-        Color(UIColor { $0.userInterfaceStyle == .dark ? UIColor(red: 44/255, green: 43/255, blue: 70/255, alpha: 1.0) : UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1.0) })
+        Color(UIColor { $0.userInterfaceStyle == .dark ? UIColor(red: 44/255, green: 43/255, blue: 70/255, alpha: 1.0)
+                : UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1.0) })
     }//34,33,60
 }
 
